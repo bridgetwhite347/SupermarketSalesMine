@@ -87,7 +87,7 @@ Ensemble:
 We tried using the bagging ensemble method to find patterns in consumer behavior.  Specifically we attempted to predict whether or not a customer would buy items with a high price based on the categorical data relating to customer behavior.  We created training and testing sets for the categorical consumer behavior data frame after applying one hot encoding to the data frame.  After training the data, we test the model.  We found the accuracy score and the confusion matrix.  Then we graphed the number of estimators vs. accuracy.
 
 
-Results
+Results: 
 
 Modeling Consumer Behavior:
 
@@ -131,7 +131,7 @@ Ensemble Method:
 
 We are still looking for a way to implement the ensemble method to predict whether a customer will spend a high amount at the supermarket.  Currently we have not found the correct Python method to display the bagging model’s predictions to a data frame.
 
-Conclusion
+Conclusion: 
 Our findings revealed that there were not many relationships between the features in this dataset. The goal of this project was to group the consumers based on similar characteristics and to find the factors that make consumers the most satisfied with their experience. The most successful part of this data mining process was the application of association rules on consumer data. 
 There were limitations to the data, especially concerning the categorical features that were included in the dataset. Specifically, the ‘Product line’ attribute was ambiguous because it does not account for a transaction that has products from multiple product lines. In the future, this business can do market basket analysis if they collect more data about each item that a customer purchases in a transaction. 
 We made assumptions about the data, including its relevance to the attribute being predicted in supervised learning. We split the data into two categories, focusing on the consumer behavior or the store sales data. Although we split it up for better understanding, these two categories are interrelated as the consumer buying behavior and demographics can have an effect on the transaction cost and other store sales data.
